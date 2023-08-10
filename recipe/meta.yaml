@@ -1,5 +1,5 @@
 {% set name = "arcos4py" %}
-{% set version = "0.1.6" %}
+{% set version = "0.2.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/arcos4py-{{ version }}.tar.gz
-  sha256: 48dde3328abb197a607251273b6da85bdd5cb48d1a48d2bf5dc844be6bf77993
+  sha256: 3ce8b1181ed7aa1cdd1b17e28ddc93d7b0dfd79f1af294c319f5c27412f69fd4
 
 build:
   noarch: python
