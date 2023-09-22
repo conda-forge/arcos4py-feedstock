@@ -9,6 +9,8 @@ Package license: MIT
 
 Summary: A python package to detect collective spatio-temporal phenomena.
 
+Development: https://github.com/bgraedel/arcos4py
+
 Current build status
 ====================
 
