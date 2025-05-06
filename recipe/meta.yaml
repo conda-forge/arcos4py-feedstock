@@ -1,5 +1,6 @@
 {% set name = "arcos4py" %}
 {% set version = "0.3.2" %}
+{% set python_min = "3.10" %}
 
 package:
   name: {{ name|lower }}
@@ -18,7 +19,7 @@ requirements:
   host:
     - pip
     - poetry
-    - python {{ python_min }}
+    - python >= {{ python_min }}
   run:
     - joblib >=1.3.0
     - kneed >=0.7.0
@@ -42,7 +43,7 @@ test:
     - pip check
   requires:
     - pip
-    - python {{ python_min }}
+    - python >= {{ python_min }}
 
 about:
   home: https://pypi.org/project/arcos4py
